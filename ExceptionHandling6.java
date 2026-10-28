@@ -3,12 +3,10 @@ import java.util.Scanner;
 public class ExceptionHandling6{
 
     public static double CaluculateSquareRoot(double n) throws Exception{
-        if(n<0){
+        if(n < 0){
             throw new Exception("Number cannot be negative");
         }
-        else{
            return Math.sqrt(n);
-        }
     }
 
     public static void main (String[] args){

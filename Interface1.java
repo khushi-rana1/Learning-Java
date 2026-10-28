@@ -14,6 +14,6 @@ public class Interface1 {
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
         Square s1 = new Square();
-        System.out.println("Square of " + n + " is: " + s1.square(n) );
+        System.out.println("Square of " + n + " is: " + s1.square(n));
     }
 }
